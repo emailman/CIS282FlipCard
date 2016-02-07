@@ -13,6 +13,7 @@ public class QuestionActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_question);
 
+        // get a reference to the button
         Button answerBtn = (Button) findViewById(R.id.button);
         answerBtn.setOnClickListener(new View.OnClickListener() {
             @Override
